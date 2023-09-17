@@ -1,0 +1,465 @@
+@font-face {
+  font-family: "Kanit";
+  src: url("../fonts/Kanit-Regular.ttf");
+  }
+
+@font-face {
+  font-family: "Grotesk";
+  src: url("../fonts/Grotesk.ttf");
+}
+
+@font-face {
+  font-family: "Kanit-light";
+  src: url("../fonts/Kanit-Light.ttf");
+}
+
+html,
+body {
+  height: 98%;
+  margin: auto;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.header-1 {
+  height: 600px;
+}
+
+.flex-container-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 600px;
+}
+
+.flex-item-1 {
+  font-size: 2rem;
+  width: 400px;
+  display: flex;
+  line-height: 1.2;
+  align-items: center;
+  font-family: 'Grotesk', sans-serif, Arial, Helvetica, sans-serif;
+  margin-left: 10%;
+  margin-right: 3%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-item-1-1 {
+  width: 100%;
+  display: flex;
+  
+}
+
+.flex-item-2 {
+    display: flex;
+      text-align: center;
+      align-items: flex-end;
+    margin-right: 10%;
+    }
+
+#iphone {
+  height: 90%;
+}
+
+#apple, #google {
+  margin-right: 1rem;
+  font-family: "Grotesk", sans-serif;
+  font-size: 1.1rem;
+  width: 8rem;
+  height: 150%;
+  border-radius: 5px;
+  background: linear-gradient(330deg, #a5d8ff, #ffdde2);
+  border-style: none;
+}
+
+#apple:hover,
+#google:hover {
+  cursor: pointer;
+  background: linear-gradient(300deg, #ffabab, #fff5f5);
+  box-shadow: rgb(255, 255, 255) 0 0 30px -5px;
+  transition: 0.3s;
+}
+
+#svg-apple {
+  margin-right: 0.5rem;
+  margin-bottom: -0.1rem;
+}
+
+#svg-google {
+  margin-right: 0.5rem;
+  margin-bottom: -0.1rem;
+}
+
+.container-2 {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#check, #hat, #arrow {
+  padding: 0.5rem;
+  background-color: #ffdde2;
+  border-radius: 10px;
+  border-style: none; 
+}
+.text1, .text2, .text3 {
+  font-family: 'Grotesk', sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  width: 26%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.mini-h {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.container-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5f2fc;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#reviewtext {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-family: 'Grotesk', sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+#reviewer {
+  font-family: 'Grotesk', sans-serif, Arial, Helvetica, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#pebblesimg {
+  border-radius: 50%;
+  width: 50%;
+}
+#pebbles {
+  margin-top: 0.3rem;
+  font-family: 'Grotesk', sans-serif, Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+.brands {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.brand {
+  width: 8rem;
+  height: 100%;
+}
+
+.container-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 600px;
+}
+
+#pricingtext {
+  font-family: 'Grotesk', sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#pricingh3 {
+  font-family: 'Grotesk-light', sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: 100;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+#pricingp {
+  font-family: 'Grotesk', sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+#pricingplan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+
+}
+
+.plan {
+  border: 1px solid #bcbcbc;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 300px;
+  border-radius: 10px;
+  justify-content: space-between;
+  text-align: center;
+  font-family: 'Grotesk', sans-serif, Arial, Helvetica, sans-serif;
+  column-gap: 0px;
+  row-gap: 0px;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.07);
+}
+
+#planh3 {
+  font-family: 'grotesk', sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 100;
+  border-bottom: 1px solid #bcbcbc;
+  margin-top: 0;
+  padding-top: 0.9rem;
+  padding-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block-end: 0;
+}
+
+#signupforfreebutton, #getstartedbutton, #contactusbutton {
+  font-family: 'Kanit-Light', sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+  padding: 0.6rem;
+
+  border-radius: 10px;
+  width: 90%;
+  margin-bottom: 4%;
+  border: 1px solid #4f4f4f;
+  background-color: white;
+}
+
+#getstartedbutton,
+#contactusbutton {
+  background-color: #0b0b0b;
+  color: white;
+}
+
+#getstartedbutton:hover,
+#contactusbutton:hover {
+  cursor: pointer;
+  background-color: #4f4f4f;
+  color: white;
+  transition: 0.3s;
+}
+
+#signupforfreebutton:hover {
+  cursor: pointer;
+  background-color: #0b0b0b;
+    color: white;
+  transition: 0.3s;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#price {
+  font-family: 'Kanit-light', sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.bprice {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+#planfeatures {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+#plan1, #plan2 {
+  border: 1px solid #bbbbbb;
+  border-radius: 10px;
+}
+
+.plan3 {
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+
+.planh3light {
+  background-color: #f7f7f7;
+  border-radius: 10px 10px 0 0;
+}
+
+.planh3dark {
+  background-color: #000000;
+  border-radius: 10px 10px 0 0;
+  color: white;
+
+}
+.container-5 {
+  font-family: 'Grotesk', sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  font-size: 1.2rem;
+}
+.container-5 a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 1.8rem;
+}
+.container-5 h3 {
+  margin-bottom: 0.4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .flex-container-1 {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 750px;
+    gap: 0rem;
+    width: 100%;
+  }
+  .header-1 {
+      height: 750px;
+    }
+
+  .flex-item-1 {
+    margin: 0;  
+  }
+
+  .flex-item-1-1 {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+  
+  .flex-item-2 {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      height: 450px;
+    }
+  #title {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+    #iphone {
+      height: 90%;
+    }
+  .container-2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+  }
+  .text1,
+    .text2,
+    .text3 {
+      text-align: center;
+      font-family: 'Grotesk', sans-serif, Arial, Helvetica, sans-serif;
+      font-size: 0.9rem;
+      width: 50%;
+      padding-top: 0.5rem;
+      padding-bottom: 1rem;
+    }
+    .brands {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
+      align-items: center;;
+      padding-bottom: 2rem;
+    }
+  
+    .brand {
+      width: 15rem;
+      height: 100%;
+      padding-top: 2rem;
+    }
+    #pricingplan {
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      height: 1000px;
+      gap: 2rem;
+    }
+    .plan {
+      width: 70%;
+      height: 300px;
+    }
+    .container-4 {
+          height: auto;
+          padding-bottom: 3rem;
+        }
+    .container-5 {
+
+          grid-template-columns: 1fr 1fr;
+
+        }
+}
